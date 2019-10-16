@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <style>
+      form {
+        width: 500px;
+      }
+      #p-lang-input {
+        width: 250px;
+      }
+    </style>
+  </head>
+  <body id="rainbow-bg">
+    <!-- Basic DOM Manipulation -->
+    <h1 id="prog-lang-heading">Programming Language Heading</h1>
+    <input type="text" name="js-input" id="js-input" />
+    <input type="submit" value="Submit" />
+    <ul>
+      <li class="list-item">Item 1</li>
+      <li class="list-item">Item 2</li>
+      <li class="list-item">Item 3</li>
+      <li class="list-item">Item 4</li>
+    </ul>
+    <div class="placeholder"></div>
+    <br />
+    <div class="placeholder"></div>
+
+    <div id="parent">
+      <p class="children">You can click me...</p>
+      <p class="children">and me...</p>
+      <p class="children">also me...</p>
+    </div>
+
+    <!-- Event Listeners -->
+    <h1>Event Listener Examples</h1>
+    <h2>This is an example of a key press event</h2>
+    <p id="log-key"></p>
+
+    <!-- Window Object -->
+    <h2>I will get prompt by the browser</h2>
+    <p id="prompt-text"></p>
+
+    <h2>This is an example of a click event</h2>
+    <textarea name="comment" id="comment-input" cols="30" rows="10"></textarea>
+    <br />
+    <input id="comment-data" type="button" value="Post" />
+    <p id="comment-output"></p>
+
+    <h2>This is example of a submit event</h2>
+    <form id="p-form">
+      <fieldset>
+        <legend>What is your favourite programming language?</legend>
+        <label for="p-lang-input" id="p-lang-lbl">Programming Language:</label>
+        <input
+          type="text"
+          name="p-lang-input"
+          id="p-lang-input"
+          placeholder="Please enter a programming language"
+        />
+        <br />
+        <input type="submit" value="Add" />
+      </fieldset>
+    </form>
+
+    <ul id="list-of-langs"></ul>
+    <p id="num-of-langs"></p>
+
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

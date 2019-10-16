@@ -1,0 +1,175 @@
+/* body{background-color: white}
+
+.background{ background: #1da2db }
+
+.margins{ margin:10px 10px 20px 30px }
+
+.padding{ padding:50px 50px 50px 50px }
+
+.border{ border:2px solid #3c3c3c }*/
+
+.bigText{ font-size:50px}
+
+/*.tableText{ font-size: 20px}
+
+.img1{float: left;}
+
+.column{ width:100% }
+
+.tableWidth {width:200px}
+
+.nav {font-size: 20px} */ 
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  padding: 20px;
+  background-color: whitesmoke ;
+}
+
+footer {
+  padding: 20px;
+  background-color: whitesmoke ;
+}
+
+tr,
+td {
+  border: 1px solid black;
+}
+
+td, th{
+
+
+    max-width: 20px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    word-break: break-all;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  
+
+}
+
+#row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+nav {
+  display: flex;
+  background-color: aquamarine;
+}
+
+nav a {
+  text-decoration: none;
+  text-align: center;
+  padding: 20px;
+}
+
+aside {
+  padding: 20px;
+  flex: 30%;
+  background-color: blanchedalmond;
+}
+
+section {
+  padding: 20px;
+  flex: 70%;
+  background-color: pink;
+}
+
+.placeholder {
+  padding: 20px;
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  /* For tablets: */
+  /* .column { width: 50% }  
+  .nav {font-size: 35px} */
+
+  #row,
+  nav {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  /* For desktop: */
+  .column { width: 33.333% } */
+
+
+     ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3c3c3c;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  
+   /*Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #ab0000;
+  }
+}
+
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+  

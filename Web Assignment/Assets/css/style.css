@@ -242,4 +242,9 @@ section {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+img {
+  width: 250px;
+  height: 250px;
+}
   

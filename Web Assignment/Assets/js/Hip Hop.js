@@ -19,6 +19,8 @@ window.onload = () => {
             HipHop.forEach(p => {
                 const {albumName, artistName, image } = p
                 console.log(p)
+                var URL = p.image
+                document.getElementById(`Image${i}`).src = URL
                 document.getElementById(`Album-Head${i}`).append(p.albumName)
                 document.getElementById(`Artist-Head${i}`).append(p.artistName)
                 i++;

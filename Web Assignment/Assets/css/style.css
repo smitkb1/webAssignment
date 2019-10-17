@@ -1,26 +1,8 @@
-/* body{background-color: white}
 
-.background{ background: #1da2db }
-
-.margins{ margin:10px 10px 20px 30px }
-
-.padding{ padding:50px 50px 50px 50px }
-
-.border{ border:2px solid #3c3c3c }*/
 
 .bigText{ 
   font-size:100px;
 }
-
-/*.tableText{ font-size: 20px}
-
-.img1{float: left;}
-
-.column{ width:100% }
-
-.tableWidth {width:200px}
-
-.nav {font-size: 20px} */ 
 
 * {
   box-sizing: border-box;
@@ -47,7 +29,7 @@ td {
 }
 
 td, th{
-
+    border-width: 2px;
     font-size: 25px;
     font-family: Arial;
     max-width: 20px;
@@ -57,6 +39,8 @@ td, th{
     word-break: break-all;
 }
 table {
+  border-width: 2px;
+  background-color: pink;
   border-collapse: collapse;
   width: 100%;
   
@@ -66,17 +50,6 @@ table {
 #row {
   display: flex;
   flex-wrap: wrap;
-}
-
-nav {
-  display: flex;
-  background-color: aquamarine;
-}
-
-nav a {
-  text-decoration: none;
-  text-align: center;
-  padding: 20px;
 }
 
 aside {
@@ -139,43 +112,6 @@ section {
   }
 }
 
-/* .dropbtn {
-  background-color: #4CAF50;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-
-.dropdown-content a:hover {background-color: #ddd;}
-
-.dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropbtn {background-color: #3e8e41;} */
-
 /* Navbar container */
 .navbar {
   overflow: hidden;
@@ -186,7 +122,7 @@ section {
 /* Links inside the navbar */
 .navbar a {
   float: left;
-  font-size: 40px;
+  font-size: 30px;
   color: white;
   text-align: center;
   padding: 14px 16px;
@@ -201,7 +137,7 @@ section {
 
 /* Dropdown button */
 .dropdown .dropbtn {
-  font-size: 40px;
+  font-size: 30px;
   border: none;
   outline: none;
   color: white;
@@ -251,8 +187,9 @@ img {
   height: 250px;
 }
 
-tablefont {
-  font-size: 50px;
-  font: Arial;
+footer {
+  background-color: pink;
 }
+
+
   

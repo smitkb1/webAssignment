@@ -22,12 +22,31 @@
 <body> <!-- this tag contains all the contents of this HTML document such as text, links, images, etc  -->
      
       <section>
-        <p id = "text">Keegan</p>
+        <form action="">
+          <label for= "fName">First Name</label>
+          <input id = "fName" type = "text" name = "fName" />
+          <p></p>
+          <label for= "lName">Last Name</label>
+          <input id = "lName" type = "text" name = "fName" />
+          <p></p>
+          <label for= "email">Email</label>
+          <input id = "email" type = "text" name = "email" />
+          <p></p>
+          <label for= "phone">Phone Number</label>
+          <input id = "phone" type = "text" name = "phone" />
+          <input type = "submit" value = "Submit form" />
+        </form>
+        
+        <form>
+          <textarea id="words" rows="10" cols="50">Enter comment</textarea>
+          <input type="button" id= "Submit Button" onclick="getwords()" value="Enter" /> <br>
+          <p id="cheer"></p>
+        </form>
         </section>
       
       <footer>
         Keegan Smith &copy;
       </footer>
-      <script src="Assets/js/main.js"></script>
+      <script src = "Assets/js/Contact.js"></script>
 </body>
 </html>

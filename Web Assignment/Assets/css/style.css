@@ -8,7 +8,9 @@
 
 .border{ border:2px solid #3c3c3c }*/
 
-.bigText{ font-size:50px}
+.bigText{ 
+  font-size:100px;
+}
 
 /*.tableText{ font-size: 20px}
 
@@ -46,7 +48,8 @@ td {
 
 td, th{
 
-
+    font-size: 25px;
+    font-family: Arial;
     max-width: 20px;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -183,7 +186,7 @@ section {
 /* Links inside the navbar */
 .navbar a {
   float: left;
-  font-size: 16px;
+  font-size: 40px;
   color: white;
   text-align: center;
   padding: 14px 16px;
@@ -198,7 +201,7 @@ section {
 
 /* Dropdown button */
 .dropdown .dropbtn {
-  font-size: 16px;
+  font-size: 40px;
   border: none;
   outline: none;
   color: white;
@@ -246,5 +249,10 @@ section {
 img {
   width: 250px;
   height: 250px;
+}
+
+tablefont {
+  font-size: 50px;
+  font: Arial;
 }
   

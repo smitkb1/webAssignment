@@ -1,9 +1,10 @@
 
-const cheersMessage =(e) =>{
-    const firstName = document.getElementById('First Name').value
-    const lastName = document.getElementById('Last Name').value
 
-    window.alert(`Thank You ${firstName} ${lastName} for your message!`)
+const cheersMessage =(e) =>{
+    const firstName = document.getElementById('fName').value
+    const lastName = document.getElementById('lName').value
+
+    window.alert(`Thank you ${firstName} ${lastName} for your message!`)
 }
 
-document.getElementById('Submit-Button').addEventListener('click', cheersMessage)
+document.getElementById('Submit-Button').addEventListener('click', cheersMessage).append('cheer')

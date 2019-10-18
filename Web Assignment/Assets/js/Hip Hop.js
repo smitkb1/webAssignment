@@ -34,3 +34,12 @@ window.onload = () => {
     xhr.send()
 }
 
+const comment =(e) =>{
+    const name = document.getElementById('name').value
+    const comment = document.getElementById('comment').value
+
+    document.getElementById(`${name}`)
+    document.getElementById(`${comment}`)
+}
+
+document.getElementById('Submit-Button').addEventListener('click', comment).append(p.words)
